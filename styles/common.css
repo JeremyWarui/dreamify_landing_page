@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Raleway&display=swap');
+
+:root {
+    --headline-font:  'Inter', sans-serif;
+    --headline-intro-color: #E0DFFD;
+    --headline-size: 70px;
+    --tagline-font: 'Raleway', sans-serif;
+    --tagline-size: 25px;
+    --tagline-intro-color:  #B8B8B8;
+    --headline-color:  #000000;
+    --tagline-color: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--tagline-color);
+    font-family: var(--tagline-font);
+    font-size: var(--tagline-size);
+}
+
+button {
+    border: 3px solid var(--tagline-color);
+    border-radius: 20px;
+    padding: 0.5em 1em;
+    width: 8em;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: var(--tagline-color);
+}
+
+section {
+    height: 780px ;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*-----------------
+INTRODUCTION
+-----------------------*/
+
+#introduction {
+    background: url(../images/artistic-blurry-colorful-wallpaper-background.png) no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: contain; */
+}
+
+#introduction .heading {
+    font-family: var(--headline-font);
+    font-size: var(--headline-size);
+    color: var(--headline-intro-color);
+}
+
+#introduction .tagline {
+    font-family: var(--tagline-font);
+    font-size: var(--tagline-size);
+    color: var(--tagline-intro-color);
+}
+
+#introduction button {
+    font-family: var(--tagline-font);
+    border-color: var(--headline-intro-color);
+}
+
+
+#introduction button a {
+    color: var(--headline-intro-color);
+}
+
+/*-----------------
+FEATURES
+-----------------------*/
+
+#features .heading, #features2 .heading {
+    font-family: var(--headline-font);
+    font-size: var(--headline-size);
+    /* color: var(--headline-color); */
+}
+
+#features.container, #features2.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#features .info-image{
+    height: 804px;
+}
+
+
