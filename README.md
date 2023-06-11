@@ -22,12 +22,14 @@ Using Dreamify is simple and enjoyable. All you need is a Spotify account and a 
 
 Dreamify is a project for my course in ALX software engineering as a project portfolio. It is still in development and may have some bugs or issues. If you encounter any problems or have any suggestions, please let me know. You can contact me at:
 
-- Email: your_email@example.com
-- GitHub: https://github.com/your_username
-- LinkedIn: https://www.linkedin.com/in/your_name
+- Email: <jmwangi0x01@gmail.com>
+- GitHub: <https://github.com/JeremyWarui>
+- LinkedIn: <https://www.linkedin.com/in/jeremymwangi>
 
 I appreciate your feedback and support. Thank you for using Dreamify! 😊
 
 ## For designs
 
-https://www.figma.com/file/827eCPt78TtUkO7bjElFBU/dreamify-landing-page?type=design&t=b4jkj7sRjMOV2aMz-1
+Designs for this landing page you may find them in the following figma link:
+
+<https://www.figma.com/file/827eCPt78TtUkO7bjElFBU/dreamify-landing-page?type=design&t=b4jkj7sRjMOV2aMz-1>
