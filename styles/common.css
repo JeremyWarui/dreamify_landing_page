@@ -16,6 +16,8 @@
     padding: 0;
     font-size: 16px;
     box-sizing: border-box;
+    scroll-behavior: auto;
+    max-width: 1440px;
 }
 
 body {
@@ -69,7 +71,9 @@ nav .navbar-brand {
 
 nav .navbar-toggler {
     display: none;
+    color:   var(--headline-intro-color);
 }
+
 
 nav .navbar-nav .nav-item {
     display: inline-block;
@@ -174,5 +178,3 @@ ABOUT
     line-height: 1.5;
     margin-bottom: 4em;
 }
-
-

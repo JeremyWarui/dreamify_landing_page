@@ -1,0 +1,85 @@
+@media screen and (max-width: 450px) {
+    section {
+        height: 479px;
+    }
+
+    nav .navbar-toggler {
+        display: block;
+        border: solid;
+        width: 6em;
+    }
+
+    nav .collapse {
+        display: none;
+    }
+
+
+
+    #introduction {
+        background: url(../images/mobile-artistic-blurry-colorful-wallpaper-background.png) no-repeat;
+        background-size: cover;
+    }
+    #introduction div {
+        width: 100%;
+    }
+    #introduction .heading, #features .heading, #features2 .heading, footer.contact_us .heading {
+        font-size: 2em;
+        padding: 0.6em;
+    }
+    #introduction .tagline {
+        font-size: 1.2em;
+        padding: 0 5em;
+    }
+
+    #features.container, #features2.container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: max-content;
+    }
+
+    #features .tagline, #features2 .tagline {
+        padding: 2em 4em;
+        line-height: 1.5;
+        font-size: 1em;
+    }
+
+    #features .info, #features2 .info {
+        align-self: center;
+        text-align: center;
+        padding: 2em;
+    }
+
+    #features2 .info {
+        grid-area: 2;
+    }
+
+    #about_us {
+        height: max-content;
+        padding: 4em 0 8em;
+    }
+
+    #about_us div {
+        height: max-content;
+        padding: 0 3em;
+        text-align: center;
+    }
+
+    #about_us .about {
+        font-size: 1.2em;
+    }
+
+    footer.contact_us {
+        background: url(../images/mobile-artistic-blurry-colorful-wallpaper-background.png) no-repeat;
+        background-size: cover;
+        color: var(--headline-intro-color);
+        text-align: center;
+    }
+    footer.contact_us .author-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        padding: 0.8em 2em;
+    }
+    
+}
