@@ -1,3 +1,26 @@
 footer {
-    height: 100px;
+    height: auto;
+}
+
+footer.contact_us {
+    background: url(../images/artistic-blurry-colorful-wallpaper-background.png) no-repeat;
+    color: var(--headline-intro-color);
+    padding: 4em 6em;
+}
+
+footer.contact_us .heading {
+    font-family: var(--headline-font);
+    font-size: var(--headline-size);
+    color: var(--headline-intro-color);
+    margin-bottom: 0.5em;
+}
+
+footer.contact_us .author-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.8em 2em;
+}
+
+.author-container div > p {
+    padding-bottom: 0.8em;
 }

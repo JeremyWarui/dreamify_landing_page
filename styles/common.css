@@ -38,7 +38,8 @@ a {
 }
 
 section {
-    height: 780px ;
+    height: 800px ;
+    overflow: hidden; 
 }
 
 img {
@@ -56,19 +57,29 @@ INTRODUCTION
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-size: contain; */
+    text-align: center;
 }
 
+#introduction div {
+    width: 50%;
+}
 #introduction .heading {
     font-family: var(--headline-font);
     font-size: var(--headline-size);
     color: var(--headline-intro-color);
+    margin-bottom: 0.5em;
+}
+
+#introduction .heading, #features .heading, #features2 .heading {
+    line-height: 1;
 }
 
 #introduction .tagline {
     font-family: var(--tagline-font);
     font-size: var(--tagline-size);
     color: var(--tagline-intro-color);
+    margin-bottom: 4em;
+    padding: 0 3em;
 }
 
 #introduction button {
@@ -96,8 +107,42 @@ FEATURES
     grid-template-columns: 1fr 1fr;
 }
 
-#features .info-image{
-    height: 804px;
+#features .info-image img {
+    max-height: auto;
+}
+
+#features .info, #features2 .info {
+    align-self: center;
+    padding: 0 6em 0 6em;
+}
+
+#features .tagline, #features2 .tagline {
+    padding: 2em 6em 4em 0;
+    line-height: 1.5;
+    font-size: 1.3em;
+}
+
+/* 
+--------------------
+ABOUT 
+--------------------------
+*/
+#about_us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_us div {
+    padding: 0 12em;
+}
+
+#about_us .about {
+    font-size: 1.6em;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 4em;
 }
 
 
