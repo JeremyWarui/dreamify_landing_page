@@ -47,6 +47,36 @@ img {
     height: auto;
 }
 
+/* ------------------
+
+NAVIGATION BAR
+
+-------------------------------*/
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    background-color: #000000;
+}
+
+nav .navbar-brand {
+    font-family: var(--headline-font);
+    font-size: 2em;
+    color:   var(--headline-intro-color);
+}
+
+nav .navbar-toggler {
+    display: none;
+}
+
+nav .navbar-nav .nav-item {
+    display: inline-block;
+    margin-right:2.5em;
+    color:   var(--headline-intro-color);
+}
+
 
 /*-----------------
 INTRODUCTION
