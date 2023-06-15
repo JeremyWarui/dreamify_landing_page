@@ -12,7 +12,7 @@ Dreamify is more than just a music player. It is a sleep aid that helps you fall
 
 Using Dreamify is simple and enjoyable. All you need is a Spotify account and a web browser. Here are the steps to get started:
 
-1. Go to https://dreamify.herokuapp.com/
+1. Go to https://www.warui.tech/
 2. Choose a music category that you like, such as ambient, classical, or meditation.
 3. Click on the track and play
 4. Relax and enjoy the music!
