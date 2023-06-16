@@ -178,3 +178,11 @@ ABOUT
     line-height: 1.5;
     margin-bottom: 4em;
 }
+
+.author-container {
+    p {
+        a {
+            color: var(--tagline-intro-color:  #B8B8B8);
+        }
+    }
+}
